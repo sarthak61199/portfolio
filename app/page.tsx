@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="font-base">
       <div className="mb-16">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between sm:gap-0">
           <h1 className="text-2xl font-heading sm:text-4xl">Sarthak Agarwal</h1>
           <Links />
         </div>
@@ -20,7 +20,7 @@ export default function Home() {
           </p>
         </div>
         <div className="mt-6 text-base sm:text-lg">
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2">
             <a
               className="cursor-pointer rounded-base border-2 border-black px-4 py-2 text-center text-sm font-base shadow-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none sm:text-base bg-main"
               href={
