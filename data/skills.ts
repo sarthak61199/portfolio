@@ -1,6 +1,7 @@
 import {
   SiCss3,
   SiDocker,
+  SiDrizzle,
   SiExpress,
   SiGit,
   SiGo,
@@ -12,11 +13,12 @@ import {
   SiNextdotjs,
   SiNodedotjs,
   SiPostgresql,
+  SiPrisma,
   SiReact,
   SiRedux,
   SiTailwindcss,
   SiTypescript,
-  SiVisualstudiocode
+  SiVisualstudiocode,
 } from "@icons-pack/react-simple-icons";
 
 const SKILLS = [
@@ -60,6 +62,14 @@ const SKILLS = [
       {
         skill: "mysql",
         icon: SiMysql,
+      },
+      {
+        skill: "prisma",
+        icon: SiPrisma,
+      },
+      {
+        skill: "drizzle-orm",
+        icon: SiDrizzle,
       },
     ],
   },
