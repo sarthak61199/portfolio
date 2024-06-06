@@ -1,6 +1,7 @@
 import {
   SiGithub,
   SiGmail,
+  SiLeetcode,
   SiLinkedin
 } from "@icons-pack/react-simple-icons";
 
@@ -18,10 +19,14 @@ export default function Links() {
       icon: SiLinkedin,
       href: "https://www.linkedin.com/in/sarthak-agarwal-84996416b/",
     },
+    {
+      icon: SiLeetcode,
+      href: "https://leetcode.com/u/m8rix/",
+    },
   ];
 
   return (
-    <div className="mr-auto mt-16 flex w-full flex-wrap items-center gap-10">
+    <div className="flex pr-8 flex-wrap items-center gap-8">
       {links.map((link, id) => {
         return (
           <a target="_blank" key={id} href={link.href}>
