@@ -12,10 +12,6 @@ export default function Nav() {
       path: "/",
       text: "Home",
     },
-    {
-      path: "/about",
-      text: "About",
-    },
   ];
 
   return (
