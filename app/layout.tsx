@@ -53,7 +53,10 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body
-        className={cn(montserrat.className, "min-h-[100svh] flex flex-col")}
+        className={cn(
+          montserrat.className,
+          "min-h-[100svh] flex flex-col font-base"
+        )}
       >
         <Nav />
         <div className="mx-auto w-[750px] max-w-full px-5 pb-10 pt-28 flex flex-1">

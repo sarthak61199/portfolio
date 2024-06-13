@@ -33,7 +33,7 @@ const SKILLS = [
       { skill: "nextjs", icon: SiNextdotjs },
       { skill: "redux", icon: SiRedux },
       { skill: "material-ui", icon: SiMui },
-      { skill: "tailwind", icon: SiTailwindcss },
+      { skill: "tailwindcss", icon: SiTailwindcss },
     ],
   },
   {
