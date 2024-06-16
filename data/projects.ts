@@ -14,7 +14,7 @@ const PROJECTS = [
   {
     name: "Portfolio",
     description:
-      "The site you are currently on! Built using NextJS and TailwindCSS, with a touch of TypeScript for type safety. Also features a Blog section with harnesses the power MDX (Markdown) and Static Site Generation (SSG) to create a fast and SEO friendly blog pages.",
+      "Developed my portfolio website. Also features an advanced Blog section powered by MDX and Static Site Generation (SSG), delivering swift, SEO-optimized blog pages with seamless navigation and dynamic content rendering.",
     previewImage: "/portfolio.png",
     techStack: [
       {
@@ -35,7 +35,7 @@ const PROJECTS = [
   {
     name: "Postwoman",
     description:
-      "A Postman like API testing tool with main focus on parallel requests to test the performance of the API and how much load it can handle. It was mostly built as an internal tool at my company load test the APIs we were building. It was built using ReactJS and Material-UI.",
+      "Engineered a sophisticated API testing tool akin to Postman, designed to conduct rigorous load tests by executing concurrent requests to assess API performance and scalability thresholds. Initially conceived as an internal utility within my company. ",
     previewImage: "/postwoman.png",
     techStack: [
       {

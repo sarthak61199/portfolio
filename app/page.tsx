@@ -5,7 +5,7 @@ import Skills from "@/components/sections/skills";
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full">
       <div className="mb-16">
         <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between sm:gap-0">
           <h1 className="text-2xl font-heading sm:text-4xl">Sarthak Agarwal</h1>
@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         <div className="mt-6 text-base sm:text-lg">
           <p>
-            I am a developer with <strong>3+ years</strong> of software industry
+            I am a developer with <strong>3 years</strong> of software industry
             experience, excelling in both <strong>Frontend</strong> and{" "}
             <strong>Backend</strong> development. I take pride in owning
             projects from design to deployment.
@@ -24,7 +24,7 @@ export default function Home() {
             <a
               className="cursor-pointer rounded-base border-2 border-black px-4 py-2 text-center text-sm shadow-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none sm:text-base bg-main"
               href={
-                "https://drive.google.com/uc?export=download&id=1sV-sNm0nFYqRyEReWutPObZF9yOiwBMR"
+                "https://drive.google.com/uc?export=download&id=194odSVahK8rFeonQb3ObpTydrTMrgsEs"
               }
               target="_blank"
             >
